@@ -20,7 +20,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl.mt6768
-
+	twrp \
+    busybox \
+    resize2fs \
+    mkfs.f2fs
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.mt6768 \
     libgptutils \
